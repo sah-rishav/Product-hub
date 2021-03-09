@@ -24,6 +24,12 @@ class App extends Component {
     <div id="Home">
             <Home />
             </div>
+      <div id="About">
+              <About />
+            </div>
+            <div id="Products">
+              <Products />
+           </div>
           <div id="body" />
           
           <div id="footer">
