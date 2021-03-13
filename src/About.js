@@ -1,8 +1,8 @@
 import React from "react";
 import Typography from '@material-ui/core/Typography';
-import first from './images/first.png';
-import second from './images/second.png';
-import third from './images/third.png';
+import first from './first.png';
+import second from './second.png';
+import third from './third.png';
 import { Col, Container, Row } from "mdbreact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'react-bootstrap/Image'
