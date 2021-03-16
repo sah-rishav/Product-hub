@@ -41,7 +41,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          imgage = "/moonshine.jpg"
+           image={require('./moonshine.jpg')}
           title="Moonshine"
         />
         <CardContent>
