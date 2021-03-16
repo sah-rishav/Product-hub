@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router,Route} from "react-router-dom";
+
+import Privacy from "./Privacy"; 
+import terms from "./terms";
 
 import Footer from "./Footer";
 import Home from "./Home";
@@ -21,6 +24,8 @@ class App extends Component {
           <div id="Navbarpage">
             <NavbarPage />
           </div>
+      <Route exact path="/Privacy" component={Privacy} />
+           <Route exact path="/terms" component={terms} />
           {/*<div id = "routes">
             <Routes />
     </div>*/}
