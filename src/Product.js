@@ -38,7 +38,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image src={litho.jpeg}
+           image={require('./litho.jpeg')}
           title="Lithophanes"
         />
         <CardContent>
