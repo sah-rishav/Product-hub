@@ -40,7 +40,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/images/frame.jpeg"
+          image={require('./frame.jpeg')}
           title="Frame"
         />
         <CardContent>
