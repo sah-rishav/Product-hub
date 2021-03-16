@@ -1,5 +1,7 @@
 import React from "react";
-
+import Privacy from './Privacy';
+import terms from './terms';
+import {Link} from 'react-router-dom';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 import "./App.css";
@@ -153,6 +155,7 @@ import { Button} from "react-bootstrap";
           </MDBContainer>
           <MDBContainer className="tocenter">
             <div style={{ flexDirection: "row" }}>
+      <Link to = {{pathname:"/Privacy"}}>
             <Button
                 variant="link"
                 href="privacy"
@@ -160,6 +163,8 @@ import { Button} from "react-bootstrap";
               >
                 Privacy Policy
               </Button>
+      </Link>
+      <Link to = {{pathname:"/terms"}}>
               <Button
                 variant="link"
                 href="/terms"
@@ -167,6 +172,7 @@ import { Button} from "react-bootstrap";
               >
                 Terms and Conditions
               </Button>
+      </Link>
             </div>
           </MDBContainer>
           Copyright @{showCurrentYear()} ProductHub
